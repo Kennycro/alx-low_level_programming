@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
- * main - print out sizes of data types in c
+ * main- print out sizes of data types in c
  * Return: 0
 */
 int main(void)
 {
-printf("Sizeof a char: %d byte(s)\n", sizeof(char));
-printf("Size of an int: %d byte(s)\n", sizeof(int));
-printf("Size of a long int: %d byte(s)\n", sizeof(long int));
-printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
-printf("Size of a float: %d byte(s)\n", size(float));
+printf("Sizeof a char: %ld byte(s)\n", ((un)signed char));
+printf("Size of an int: %ld byte(s)\n", ((un)signed int));
+printf("Size of a long int: %ld byte(s)\n", (long (un)signed int));
+printf("Size of a long long int: %ld byte(s)\n", (long long (un)signed int));
+printf("Size of a float: %f byte(s)\n", (float));
 return (0);
 }
