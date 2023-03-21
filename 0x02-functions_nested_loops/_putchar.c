@@ -1,9 +1,9 @@
 #include <unistd.h>
 /**
- * _putchar - write the characetr c to stdout
+ * _putchar - write the character c to stdout
  * the character to print
+ *
  * Return: success is 1
- * error is -1 and error is set appropriately
  */
 
 int _putchar(char c)

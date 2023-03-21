@@ -1,6 +1,5 @@
-0x02. C - Functions, nested loops
-
 0. _putchar
+mandatory
 Write a program that prints _putchar, followed by a new line.
 
 The program should return 0
@@ -79,3 +78,4 @@ Numbers should be printed in order
 The first printed number should be the number passed to your function
 The last printed number should be 98
 You are allowed to use the standard library
+
